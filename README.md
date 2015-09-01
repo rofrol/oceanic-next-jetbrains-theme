@@ -2,7 +2,7 @@
 
 Companion for [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme).
 
-Because []IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/intellij-colors-solarized/issues/83#issuecomment-63050236), we need to patch existing theme, i.e. Darcula.
+Because [IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/intellij-colors-solarized/issues/83#issuecomment-63050236), we need to patch existing theme, i.e. Darcula.
 
 1. Find idea.jar or webstorm.jar etc.
 2. Open it in 7-zip.
@@ -15,3 +15,7 @@ You can also use this for limited functionality:
 
 - https://github.com/dmalch/ColorIDE
 - https://github.com/dmalch/ColorTree
+
+# Screenshot
+
+![](/screenshot.png)
