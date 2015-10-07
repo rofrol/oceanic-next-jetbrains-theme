@@ -6,7 +6,7 @@ Because [IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/
 
 1. Find idea.jar or webstorm.jar etc.
 2. Open it in 7-zip.
-3. Navigate to `com/intellij/ide/ui/laf/darcula/darcula.properties` and edit it.
+3. Navigate to `com\intellij\ide\ui\laf\darcula\` and edit `darcula.properties`.
 4. Change contents with [darcula.properties](/darcula.properties) from this repo, save and close editor.
 5. 7-zip will ask for modyfing archive, agree.
 6. Start IDEA, webstorm etc.
