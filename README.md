@@ -4,13 +4,10 @@ Companion for [Oceanic Next Color Scheme](https://github.com/minwe/oceanic-next-
 
 Because [IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/intellij-colors-solarized/issues/83#issuecomment-63050236), we need to patch existing theme, i.e. Darcula.
 
-0. When installing Webstorm, etc. answer no when asking for admin rights.
+0. When installing Webstorm, etc. answer no when asking for admin rights or install in the place when you have write privileges.
 1. Find idea.jar or webstorm.jar etc.
-2. Open it in 7-zip.
-3. Navigate to `com\intellij\ide\ui\laf\darcula\` and edit `darcula.properties`.
-4. Change contents with [darcula.properties](/darcula.properties) from this repo, save and close editor.
-5. 7-zip will ask for modyfing archive, agree.
-6. Start IDEA, webstorm etc.
+2. Add JAVA_PATH/bin to your PATH.
+3. `jar -uf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
 
 You can also use this for limited functionality:
 
