@@ -7,7 +7,8 @@ Because [IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/
 0. When installing Webstorm, etc. answer no when asking for admin rights or install in the place when you have write privileges.
 1. Find idea.jar or webstorm.jar etc.
 2. Add JAVA_PATH/bin to your PATH.
-3. `jar -uf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
+3. Extract file and check changes: `jar xf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
+4. Upload file `jar uf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
 
 You can also use this for limited functionality:
 
