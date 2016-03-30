@@ -8,7 +8,8 @@ Because [IntelliJ IDEA does not allow custom themes](https://github.com/jkaving/
 1. Find idea.jar or webstorm.jar etc.
 2. Add JAVA_PATH/bin to your PATH.
 3. Extract file and check changes: `jar xf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
-4. Upload file `jar uf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
+4. Close Idea or you will get error in next step: `java.io.IOException: Error in writing existing jar file`
+5. Upload file `jar uf /c/installed/WebStorm*/lib/webstorm.jar com/intellij/ide/ui/laf/darcula/darcula.properties`
 
 You can also use this for limited functionality:
 
